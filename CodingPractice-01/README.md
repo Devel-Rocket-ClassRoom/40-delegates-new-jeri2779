@@ -22,7 +22,10 @@ Hello Delegate
 
 ## 2. 대리자 인스턴스 생성 방법
 
-"안녕하세요."를 출력하는 `Hi` 정적 메서드를 만들고, `SayDelegate` 대리자에 메서드 이름으로 할당하는 방법과 `new SayDelegate(Hi)` 방법을 각각 사용하여 호출하세요.
+"안녕하세요."를 출력하는 `Hi` 정적 메서드를 만들고, 
+`SayDelegate` 대리자에 메서드 이름으로
+할당하는 방법과 
+`new SayDelegate(Hi)` 방법을 각각 사용하여 호출하세요.
 
 **실행 결과**
 
@@ -35,7 +38,12 @@ Hello Delegate
 
 ## 3. 매개변수와 반환값이 있는 대리자
 
-`GetAreaDelegate` 대리자(int를 받아 double을 반환)를 선언하세요. 원의 넓이를 계산하는 `GetArea` 정적 메서드(3.14 * r * r)를 만들고, `Invoke(10)`과 `pointer(10)` 두 가지 방법으로 호출하여 결과를 출력하세요.
+`GetAreaDelegate` 
+대리자(int를 받아 double을 반환)를 선언하세요. 
+원의 넓이를 계산하는 
+`GetArea` 정적 메서드(3.14 * r * r)를 만들고, 
+`Invoke(10)`과 `pointer(10)` 
+두 가지 방법으로 호출하여 결과를 출력하세요.
 
 **실행 결과**
 
@@ -115,7 +123,13 @@ Hello Delegate
 
 ## 8. Action 대리자
 
-`Action`(매개변수 없음), `Action<string>`, `Action<string, int>`을 각각 사용하여 람다식으로 구현하세요. "안녕하세요!" 출력, 전달받은 메시지 출력, 메시지를 지정된 횟수만큼 반복 출력하세요.
+`Action`(매개변수 없음), 
+`Action<string>`, 
+`Action<string, int>`을 각각 사용하여 
+람다식으로 구현하세요. 
+"안녕하세요!" 출력, 
+전달받은 메시지 출력, 
+메시지를 지정된 횟수만큼 반복 출력하세요.
 
 **실행 결과**
 
